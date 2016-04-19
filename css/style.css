@@ -1,0 +1,253 @@
+body{
+    margin-top:70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.listNoStyle {             /* Used for have unstyled lists */
+    list-style: none;
+    padding: 0px; 
+}
+
+.buttonTeamStyle, .buttonFieldStyle{    /* Used for give style to body buttons */
+    height: 104px;
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+    color: rgb(102,177,209);
+    /* color gradient */
+    background: rgba(245,251,253,1);
+    background: -moz-linear-gradient(top, rgba(245,251,253,1) 0%, rgba(216,239,249,1) 32%, rgba(216,239,249,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,251,253,1)), color-stop(32%, rgba(216,239,249,1)), color-stop(100%, rgba(216,239,249,1)));
+    background: -webkit-linear-gradient(top, rgba(245,251,253,1) 0%, rgba(216,239,249,1) 32%, rgba(216,239,249,1) 100%);
+    background: -o-linear-gradient(top, rgba(245,251,253,1) 0%, rgba(216,239,249,1) 32%, rgba(216,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(245,251,253,1) 0%, rgba(216,239,249,1) 32%, rgba(216,239,249,1) 100%);
+    background: linear-gradient(to bottom, rgba(245,251,253,1) 0%, rgba(216,239,249,1) 32%, rgba(216,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fbfd', endColorstr='#d8eff9', GradientType=0 );
+}
+
+.fieldMatchStyle{                /* Used for the style of the match lists that haven't a link */
+    height: 104px;
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px;
+    border-top: 1px solid white;
+    color: rgb(102,177,209);
+    background-color: rgba(216,239,249,1);;
+}
+
+.buttonFieldStyle{            /* is the difference between .buttonFieldStyle and .buttonTeamStyle */
+    padding-top:40px;
+}
+
+.buttonTeamStyle:hover, .buttonFieldStyle:hover, .buttonTeamStyle:focus, .buttonFieldStyle:focus{     /* Cancel the effect */
+    background-color: transparent;
+    color: rgb(102,177,209);
+}
+
+.buttonTeamStyle:active, .buttonFieldStyle:active{    /* Cancel the effect */
+    background-color: rgb(191,230,247);
+    color: rgb(102,177,209);
+}
+
+.map{                    /* map properties */
+    height: 88vh;
+    width: 100vw;
+    border: none;
+}
+
+.browser-bar {           /* Color of the browser bar */
+    background-color: rgb(102,177,209);
+}
+
+.browser-bar .navbar-brand{        /* Style properties on brand */
+    color: #ffffff;
+    text-align: center;
+    height:0px;
+    margin-left: 5%;
+}
+
+.browser-bar .navbar-brand:hover, .browser-bar .navbar-brand:focus{        /* Cancel the effect */
+    color: #ffffff;
+}
+
+.browser-bar .navbar-toggle{        /* Style the toggle button of the bar */
+    margin-top: 12px;
+    border: none;
+    margin-left: 2.5vw;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.browser-bar .navbar-toggle:hover, .browser-bar .navbar-toggle:focus{        /* Cancel the effect */
+    background-color: transparent;
+}
+
+.navbar-header>a:hover, .navbar-header>a:focus{        /* Cancel the effect */
+    color: white;
+}
+
+.mapButtonStyle{                    /* Properties to mapButton */
+    position: relative;
+    padding: -10px 10px;
+    margin-top: 13px;
+    margin-right: 15px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    float: right;
+    margin-right: 2.5vw;
+}
+
+.mapButtonStyle:focus, .mapButtonStyle:hover{        /* Cancel the effect */
+    background-color: transparent;
+}
+
+.navbar-fixed-top {        /* Used for fix the navigation bar on the top of the screen, so we can always see it */
+    height: 70px;
+    padding-top: 15px;
+}
+
+.navbar-toggle .icon-bar {        /* Gives the properties to the little bars on the menu icon */
+    display: block;
+    width: 17px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar{    /* Gives margin-top to the icon-bar ignoring the first one */
+    margin-top: 3px;
+}
+
+.menu-style{                /* Used for style the dropdown menu */
+    margin-top: 12px;
+    background-color: rgba(252,128,128,0.93);
+}
+
+.menu-style>li>a{            /* Styles the links of dropdown menu */
+    color: #ffffff;
+    height: 90px;
+    padding-top: 25px;
+}
+
+.menu-style>li>a:hover{        /* Cancel the effect */
+    background-color: transparent;
+}
+
+.menu-style li+li{            /* Gives border-top to the li from menu-style ignoring the first one */
+    border-top: 1px solid white;
+}
+
+.img-menu{        /* img properties */
+    width: 45px;
+    margin-right: 20px;
+}
+
+.img-team, .img-back{        /* img properties */
+    width: 23px;
+}
+
+.backButtonStyle{            /* Gives style to the backButton of the navbar */
+    margin-top: 5px;
+    border: none;
+    margin-left: 2.5vw;
+    float: left;
+    margin-bottom: 0px;
+    position: relative;
+    padding: 9px 10px;
+    margin-right: 15px;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 4px;
+}
+
+.img-calendar{            /* img properties */
+    width: 18px;
+    margin-right: 5px;
+}
+
+.img-map{            /* img properties */
+    width: 13px;
+    margin-right: 5px;
+}
+
+.img-map-white{        /* img properties */
+    width: 15px;
+    margin-right: 10px;
+}
+
+.navbar-collapse{        /* Cancel the effect */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fontStyleBig{        /* bold text with big size letters */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.fontStyleSmall{        /* small size letters */
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.alignTextRight{        /* align text right */
+    text-align: right;
+    padding-right: 0px;
+}
+
+.alignTextLeft{        /* align text left */
+    text-align: left;
+    padding-left: 0px;
+}
+
+.imgContact{            /* img properties */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+.contactText{            /* Aligns and paint the text of contact page */
+    text-align: center;
+    color: white;
+}
+
+.contactButtonLeft, .contactButtonRight{    /* Properties of telephone and mail buttons on contact's page */
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: rgb(55,109,133);
+    color: rgb(245,251,253);
+}
+
+.contactButtonLeft{        /* aligns telephone button of contact page */
+    float: right;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.contactButtonRight{        /* aligns mail button of contact page */
+    float: left;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+
+.contactButtonLeft:hover, .contactButtonRight:hover, .contactButtonLeft:focus, .contactButtonRight:focus{    /* Cancel the effect */
+    color: white;
+}
+
+#body{            /* Properties on contact's body page */
+    background-color: rgb(75,144,174);
+    height: 88vh;
+}

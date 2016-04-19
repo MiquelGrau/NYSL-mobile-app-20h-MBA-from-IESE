@@ -1,0 +1,9 @@
+font: open sans
+blanc: 245 251 253
+blau fluix: 216 239 249
+rosa: 252 128 128
+blau capçalera: 102 177 209
+blau seleccionat: 191 230 247
+lletra blau color: 102 177 209
+background contact: 75 144 174
+button contact: 55 109 133

@@ -1,0 +1,101 @@
+/* Colors */
+
+.purple{
+    background-color: #5618FF;
+}
+
+.orange{
+    background-color: #F65B24;
+}
+
+.green{
+    background-color: #47FF25;
+}
+
+.yellow{
+    background-color: #E8BF16;
+}
+
+.lightblue{
+    background-color: #16D2E8;
+}
+
+.red{
+    background-color: #E80A2C;
+}
+
+
+/* structure */
+
+body{
+    margin: 0px;
+}
+
+
+/* navigation bar */
+
+.navbar{
+    margin-bottom: 20px;
+    padding-top: 30px;
+    height: 20px;
+}
+
+.navbar h1{        /* Used for give style to menu title */
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    margin-left: 5%;
+    width: 58.33%;
+    font-size: 18px;
+}
+
+.navbar a{        /* Used for give style to menu links */
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.menu{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu>li>a{        /* Used for give style to menu buttons */
+    padding-top: 25px;
+    height: 55px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+    display: block;
+}
+
+.img-menu{        /* img properties */
+    width: 45px;
+    margin-right: 20px;
+}
+
+
+/* teams list */
+
+.img-team{        /* img properties */
+    width: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.buttonTeamStyle{
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.buttonTeamStyle li{    /* Used for give style to body buttons */
+    height: 30px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+}
